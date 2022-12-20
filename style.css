@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(5, 5, 54) 11.2%,
+    rgb(150, 61, 161) 53.7%,
+    rgb(9, 184, 219) 100.2%
+  );
+}
+.header {
+  font-family: "Rubik Vinyl", cursive;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  word-spacing: 0;
+  color: white;
+}
+
+main {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+
+  height: 1855px;
+  width: 1349px;
+  display: grid;
+  /* text-align: center; */
+}
+
+.section {
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
+  height: 245px;
+  width: 1079.19px;
+  margin: 10px;
+  padding: 10px;
+  min-width: auto;
+  min-height: auto;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: rgba(224, 218, 218, 0.151);
+  margin-left: 7rem;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.section img {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  font-size: 16px;
+  height: 230px;
+  width: 416.5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.section img:hover {
+  transition: 0.5;
+  transform: scale(1.2);
+  cursor: pointer;
+  margin-right: 3rem;
+}
+
+.section h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 32px;
+  font-weight: 600;
+  height: 42px;
+  width: 1059.19px;
+  display: block;
+  color: #f4a460;
+}
+
+.section p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  text-indent: 16px;
+  height: 54px;
+  width: 1059.19px;
+  display: block;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.section button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background-color: #ff7f50;
+  height: 40px;
+  width: 120px;
+  float: right;
+  display: block;
+  margin: 70px 10px 0 0;
+  border: none;
+  border-radius: 4px;
+}
+.section button:hover {
+  transition: 0.8;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.section button a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  height: auto;
+  width: auto;
+  color: white;
+  text-decoration: none;
+}
+.section button a:hover {
+  cursor: pointer;
+}
